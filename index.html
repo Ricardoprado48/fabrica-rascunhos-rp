@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fabrica Rascunhos RP · Fabrica Rascunhos RP</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+/* Layout: single readable column, legal-document conventions (numbered clauses, effective date, plain sections) */
+:root {
+  --bg: #f7f8fa; --fg: #1b1f27; --muted: #5a6272; --rule: #d9dde5; --accent: #2a5bd7; --panel: #ffffff;
+  --display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #12151b; --fg: #e6e9ef; --muted: #9aa3b4; --rule: #2a303b; --accent: #8fb0ff; --panel: #181c24; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #12151b; --fg: #e6e9ef; --muted: #9aa3b4; --rule: #2a303b; --accent: #8fb0ff; --panel: #181c24; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
+main { max-width: 68ch; margin: 0 auto; display: grid; gap: 40px; }
+header { display: grid; gap: 6px; }
+h1 { font-family: var(--display); font-weight: 600; font-size: 2rem; line-height: 1.2; margin: 0; text-wrap: balance; }
+.meta { color: var(--muted); font-size: 0.9rem; margin: 0; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 0.95rem; }
+nav a, a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+section { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 24px; display: grid; gap: 12px; min-width: 0; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.4rem; margin: 0; text-wrap: balance; }
+.en { color: var(--muted); font-size: 0.95rem; border-top: 1px solid var(--rule); padding-top: 12px; }
+ol { margin: 0; padding-left: 1.4em; display: grid; gap: 8px; }
+p { margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Fabrica Rascunhos RP</h1>
+    <p class="meta">Fabrica Rascunhos RP · vigente desde 19/10/2026</p>
+    <nav><a href="termos.html">Termos de Uso</a><a href="privacidade.html">Política de Privacidade</a></nav>
+  </header>
+  <section><p>Ferramenta pessoal que envia vídeos prontos para a caixa de rascunhos do TikTok do criador, que revisa e publica pelo próprio aplicativo.</p><p class="en">Personal tool that uploads finished videos to the creator's TikTok drafts inbox.</p></section>
+</main>
+</body>
+</html>
